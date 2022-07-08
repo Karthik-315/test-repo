@@ -3,10 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('./assets/images/hero-bg.jpg')",
-
-        "button-left": "url('./assets/images/prev.png')",
-        "button-right": "url('./assets/images/next.png')",
+        "hero-bg": "url('../assets/images/hero-bg.jpg')",
       },
 
       fontFamily: {

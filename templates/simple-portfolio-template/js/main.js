@@ -1,4 +1,4 @@
-import "../css/style.css";
+"use strict";
 
 // Variables
 const heroSection = document.getElementById(`hero-section`);
