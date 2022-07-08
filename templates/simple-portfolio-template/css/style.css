@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: rgb(241, 241, 187);
+}
+
 @layer components {
   * {
     @apply box-border;
