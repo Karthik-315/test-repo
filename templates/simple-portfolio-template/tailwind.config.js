@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./**/*.{html,js,ts,tsx}"],
   theme: {
@@ -7,7 +8,7 @@ module.exports = {
       },
 
       fontFamily: {
-                             poppins: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
 
       gridTemplateColumns: {
