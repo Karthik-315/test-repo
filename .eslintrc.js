@@ -7,5 +7,5 @@ module.exports = {
       rootDir: ["apps/*/"],
     },
   },
-  ignorePatterns: ["/node_modules"],
+  // ignorePatterns: ["/node_modules"],
 };
