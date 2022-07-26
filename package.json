@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "eslint": "8.20.0",
     "eslint-config-custom": "*",
     "postcss": "^8.4.14",
     "prettier": "latest",
@@ -26,6 +27,5 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "yarn@1.22.5"
 }
