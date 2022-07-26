@@ -12,8 +12,8 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "npx prettier --write .",
-	"lint:js": "eslint ./**/*.js",
-	"lint": "npm run lint:js"
+    "lint:js": "eslint",
+    "lint-js": "npm run lint:js"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
