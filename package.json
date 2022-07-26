@@ -24,7 +24,8 @@
   },
   "engines": {
     "npm": ">=7.0.0",
-    "node": ">=14.0.0"
+    "node": ">=14.0.0",
+    "yarn": ">=12.0.0"
   },
   "dependencies": {},
   "packageManager": "yarn@1.22.5"
