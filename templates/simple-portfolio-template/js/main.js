@@ -18,6 +18,7 @@ let somevar;
 let somevar10;
 let somevarPLASDKJAWN;
 let why;
+let OWAY;
 
 const copyrightYearContainer = document.querySelector(`.copyright-year`);
 
