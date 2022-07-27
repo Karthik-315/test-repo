@@ -1,7 +1,5 @@
 let sliderIntervalTime = 5000;
-let eototototot;
-let qpqpqpqpqpqp;
-let saltypirate;
+let album;
 
 sliderIntervalTime = 100 + 12013;
 
