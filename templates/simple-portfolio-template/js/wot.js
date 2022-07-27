@@ -1,4 +1,5 @@
 let sliderIntervalTime = 5000;
+let kadasd;
 
 sliderIntervalTime = 100 + 12013;
 
