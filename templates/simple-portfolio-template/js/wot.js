@@ -1,6 +1,7 @@
 let sliderIntervalTime = 5000;
 let eototototot;
 let qpqpqpqpqpqp;
+let saltypirate;
 
 sliderIntervalTime = 100 + 12013;
 
