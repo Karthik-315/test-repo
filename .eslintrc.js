@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
-  env: {
-    es2021: true
+  parserOptions: {
+    ecmaVersion: 2020
   },
   settings: {
     next: {
@@ -11,5 +11,5 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     semi: ["error", "always"],
-  },
+  }
 };
