@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   rules: {
-    quotes: ["error", "single"],
+    quotes: ["error", "double"],
     semi: ["error", "always"],
     "comma-dangle": "warn",
   }
