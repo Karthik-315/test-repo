@@ -13,13 +13,6 @@ const sliderButtonContainer = document.querySelector(
 );
 
 const sliderIntervalTime = 5000;
-
-let somevar;
-let somevar10;
-let somevarPLASDKJAWN;
-let why;
-let OWAY;
-
 const copyrightYearContainer = document.querySelector(`.copyright-year`);
 
 let sliderInterval,
