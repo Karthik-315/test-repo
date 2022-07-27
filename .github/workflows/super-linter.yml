@@ -10,7 +10,7 @@ on:
   push:
     branches-ignore: []
   pull_request:
-    branches: ["master"]
+    branches: [master, main]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
