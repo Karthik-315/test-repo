@@ -15,6 +15,7 @@ const sliderButtonContainer = document.querySelector(
 const sliderIntervalTime = 5000;
 let somevar;
 let somevar2;
+let somevar3;
 
 const copyrightYearContainer = document.querySelector(`.copyright-year`);
 
