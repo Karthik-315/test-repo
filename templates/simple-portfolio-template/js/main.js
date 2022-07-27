@@ -72,7 +72,7 @@ function initializeObserver() {
     threshold: 0.1,
   };
 
-  /*  let observer = new IntersectionObserver(intObserver, options);
+  let observer = new IntersectionObserver(intObserver, options);
 
   function intObserver(entries, observer) {
     entries.forEach((entry) => {
@@ -80,7 +80,7 @@ function initializeObserver() {
         ? headerNav.classList.add("sticky-nav")
         : headerNav.classList.remove("sticky-nav");
     });
-  } */
+  }
 
   observer.observe(heroSection);
 }
