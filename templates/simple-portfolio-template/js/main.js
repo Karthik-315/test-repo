@@ -12,6 +12,7 @@ const sliderButtonContainer = document.querySelector(
   `.slider-button-container`
 );
 
+let thisIsnotright;
 const sliderIntervalTime = 5000;
 const copyrightYearContainer = document.querySelector(`.copyright-year`);
 
