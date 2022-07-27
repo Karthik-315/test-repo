@@ -5,10 +5,11 @@ module.exports = {
   parser: "@babel/eslint-parser",
   parserOptions: {
     requireConfigFile: false,
+    babelOptions: {
+      presets: ["@babel/preset-react"],
+    },
   },
-  babelOptions: {
-    presets: ["@babel/preset-react"],
-  },
+
   settings: {
     next: {
       rootDir: ["apps/*/"],
