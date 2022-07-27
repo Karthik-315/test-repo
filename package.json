@@ -12,16 +12,10 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "npx prettier --write .",
-    "lint:js": "eslint ./templates/**/*.js",
-    "lint-js": "npm run lint:js",
     "check": "npx prettier --check ."
   },
   "devDependencies": {
-    "@babel/core": "^7.18.9",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/preset-env": "^7.18.9",
     "autoprefixer": "^10.4.7",
-    "eslint": "8.20.0",
     "eslint-config-custom": "*",
     "postcss": "^8.4.14",
     "prettier": "latest",
