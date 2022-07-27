@@ -13,6 +13,10 @@ const sliderButtonContainer = document.querySelector(
 );
 
 const sliderIntervalTime = 5000;
+
+
+
+
 let somevar;
 let somevar2;
 
