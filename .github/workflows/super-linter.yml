@@ -21,7 +21,6 @@ jobs:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
       
-      # ESLint and Prettier must be in `package.json`
       - name: Install Node.js dependencies
         run: npm install
         
