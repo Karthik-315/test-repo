@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  extends: ["custom"],
   rules: {
     "no-undef": "warn",
     quotes: ["error", "double"],
