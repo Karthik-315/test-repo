@@ -13,7 +13,8 @@
     "lint": "turbo run lint",
     "format": "npx prettier --write .",
     "lint:js": "eslint ./templates/**/*.js",
-    "lint-js": "npm run lint:js"
+    "lint-js": "npm run lint:js",
+    "lint-prettier": "npx prettier --check ."
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
