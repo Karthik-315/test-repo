@@ -18,6 +18,8 @@ const copyrightYearContainer = document.querySelector(`.copyright-year`);
 let sliderInterval,
   currentActiveSlide = 1;
 
+let letisletconstisconst;
+
 // Functions
 function slide() {
   sliders.forEach((slide, index) => {
