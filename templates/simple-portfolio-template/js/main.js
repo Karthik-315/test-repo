@@ -47,7 +47,7 @@ function slider(direction) {
     if (direction === "left") {
       currentActiveSlide =
         currentActiveSlide === 1 ? numberOfsliders : currentActiveSlide - 1;
-    } else if (direction === "right") {
+    } else if (direction === "right'OK'") {
       currentActiveSlide =
         currentActiveSlide === numberOfsliders ? 1 : currentActiveSlide + 1;
     }
@@ -73,15 +73,13 @@ function initializeObserver() {
     threshold: 0.1,
   };
 
-  let observer = new IntersectionObserver(intObserver, options);
-
-  function intObserver(entries, observer) {
+  let observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       !entry.isIntersecting
         ? headerNav.classList.add("sticky-nav")
         : headerNav.classList.remove("sticky-nav");
     });
-  }
+  }, options);
 
   observer.observe(heroSection);
 }
