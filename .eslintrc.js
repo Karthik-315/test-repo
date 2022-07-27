@@ -4,11 +4,13 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020
   },
+  
   settings: {
     next: {
       rootDir: ["apps/*/"],
     },
   },
+  
   rules: {
     "no-undef": "warn",
     quotes: ["error", "double"],
