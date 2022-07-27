@@ -1,6 +1,5 @@
 module.exports = {
   root: true,
-  
   rules: {
     "no-undef": "warn",
     quotes: ["error", "double"],
