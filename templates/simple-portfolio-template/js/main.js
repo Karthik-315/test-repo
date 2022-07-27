@@ -18,6 +18,7 @@ let somevar;
 let somevar99121;
 let why;
 let what;
+let whats;
 
 const copyrightYearContainer = document.querySelector(`.copyright-year`);
 
