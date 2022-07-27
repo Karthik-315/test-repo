@@ -14,9 +14,6 @@ const sliderButtonContainer = document.querySelector(
 
 const sliderIntervalTime = 5000;
 
-
-
-
 let somevar;
 let somevar4;
 
@@ -75,13 +72,15 @@ function initializeObserver() {
     threshold: 0.1,
   };
 
-  let observer = new IntersectionObserver(function (entries, observer) {
+  /*  let observer = new IntersectionObserver(intObserver, options);
+
+  function intObserver(entries, observer) {
     entries.forEach((entry) => {
       !entry.isIntersecting
         ? headerNav.classList.add("sticky-nav")
         : headerNav.classList.remove("sticky-nav");
     });
-  }, options);
+  } */
 
   observer.observe(heroSection);
 }
