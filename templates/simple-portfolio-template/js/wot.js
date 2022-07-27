@@ -1,5 +1,5 @@
 let sliderIntervalTime = 5000;
-
+let fsfsdfsf;
 
 sliderIntervalTime = 100 + 12013;
 
